@@ -1,3 +1,4 @@
+
 import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import {
@@ -475,11 +476,6 @@ export default function App() {
                   <Sparkles className="h-4.5 w-4.5 text-amber-300 shrink-0 mt-0.5 sm:mt-0" />
                   <span>방문 전에 준비서류 · 신청방법 · 확인사항을 미리 확인할 수 있는 안내 서비스</span>
                 </div>
-
-                {/* 핵심 리포트 문단 */}
-                <p className="max-w-xl mx-auto text-sm sm:text-base font-medium leading-relaxed text-blue-100/90 mb-7">
-                  지사에 내방하시기 전, <span className="text-[#FBBF24] font-black underline decoration-2 decoration-[#FBBF24]/40 underline-offset-4">서류를 먼저 자진 점검하시면</span> 방문 대기 시간은 절약되고 창구 민원은 정확히 일회 통과로 완료됩니다!
-                </p>
 
                 {/* 하단 점검 권고 슬로건 */}
                 <div className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-black text-white bg-white/5 border border-white/10 px-4.5 py-2.5 rounded-xl shadow-3xs">
